@@ -169,8 +169,9 @@ object musicRecommendation {
     session.conf.set("spark.sql.crossJoin.enabled","true")
     someRecommendation.foreach{ case (userID , recsDF) =>
       val recommendedArtist = recsDF.select("artist").as[Int].collect()
-      println(s"$userID -> ")
-        artistByID.filter($"id" isin recommendedArtist).show()
+      println(s"for $userID recommend ${recommendedArtist.mkString(".")} ")
+        // isin带的参数并不是list，而是一个可变长vararg
+        artistByID.filter($"id" isin (recommendedArtist:_*)).show()
         println()
     }
 
