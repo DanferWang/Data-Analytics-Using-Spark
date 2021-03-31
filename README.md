@@ -11,7 +11,7 @@ This repository stores some projects about data analytics which are all programm
     take care!
       The full datasets you can download by reading DATASET_README where there is an URL and extract code.
 
-    Also, I have one DLog for you to learn and follow, however, it is in Chinese!
+    Also, I have one DLog(ReadMe) for you to learn and follow, however, it is in Chinese!
     
 ## Decision tree and Random forest
       I choose decison tree and random forest algorithm mainly becuase it is easy to be understood!
@@ -21,5 +21,5 @@ This repository stores some projects about data analytics which are all programm
     in Spark it occurs error. Some fellows who discover the problem are welcomed to teach me to correct or improve it! Thank you all!
       Please pay attention to changing the relative file path.
       
-      I do also took down some notes while programming. Please refer to the DLog, and expand some core tech!
-      DLog is in Chinese, forgiving my poor English.
+      I do also took down some notes while programming. Please refer to the DLog(ReadMe), and expand some core tech!
+      DLog(ReadMe) is in Chinese.
